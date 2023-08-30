@@ -1,0 +1,25 @@
+
+======================================================================
+======================================================================
+ Welcome to NW Diagnostics!
+ At: 2023-08-30 at 09:12 AM
+ Operating System: nt Windows 10
+ System Architecture: 64bit
+ Number of CPUs: 8
+ Machine Type: AMD64
+ Python Version: 3.11.5
+ Python Build Date and Compiler: tags/v3.11.5:cce6ba9 with Aug 24 2023 14:38:34
+ Python Implementation: CPython
+ Active pip environment: None
+ Path to Interpreter:         C:\Users\kaleach\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+ Path to virtual environment: C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1520.0_x64__qbz5n2kfra8p0
+ Current Working Directory:   C:\Users\kaleach\OneDrive - The School District of Springfield R-12\Desktop\Grad_School\SY2023\44-671\Module2\671-mod2
+ Path to source directory:    C:\Users\kaleach\OneDrive - The School District of Springfield R-12\Desktop\Grad_School\SY2023\44-671\Module2\671-mod2
+ Path to script file:         C:\Users\kaleach\OneDrive - The School District of Springfield R-12\Desktop\Grad_School\SY2023\44-671\Module2\671-mod2\00_check_core.py
+ User's Home Directory:       C:\Users\kaleach
+ Terminal Environment:        VS Code
+ Terminal Type:               cmd.exe
+ Git available in PATH:       True 
+======================================================================
+======================================================================
+

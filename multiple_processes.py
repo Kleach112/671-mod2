@@ -37,7 +37,7 @@ logging.basicConfig(
 
 # Declare program constants (typically constants are named with ALL_CAPS)
 
-TASK_DURATION_SECONDS = 3 # TODO: increase this to 3 and see what happens
+TASK_DURATION_SECONDS = 1 # TODO: increase this to 3 and see what happens
 DIVIDER = "=" * 70  # A string divider for cleaner output formatting
 DB_NAME = "shared.db"
 
@@ -49,9 +49,9 @@ Now - increase the task duration (representing
       the time the task has the database 
       tied up during an insert statement).
 How well do multiple, concurrent processes share a database 
-    when each task takes more time? 
+    when each task takes more time?  -Not well, when increased to 3 seconds there were errors because the database was locked. 
 How can multiple processes share a resource
-    without interfering with each other?
+    without interfering with each other? -By using synchronization mechanisms like locks, conditions, queues, etc. 
 """
 
 # define another multi-line f-string (formatted string) to
@@ -195,3 +195,8 @@ if __name__ == "__main__":
     if TASK_DURATION_SECONDS == 0:
         logging.info(SUCCESS_MESSAGE)
    
+    # Add a concluding message to indicate your observation and experience
+        logging.info("Finished running multiple_processes.py.")
+        logging.info("Concurrency issues as the time was increased.")
+        logging.info("1 second worked, but 2 and 3 had errors.")
+        logging.info("Kim Leach")
